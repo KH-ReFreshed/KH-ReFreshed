@@ -166,4 +166,7 @@ BBS support is currently broken and you *will* experience issues, such as crashe
 
 ## Third Party Libraries
 
-[DiscordRPC by Lachee](https://github.com/Lachee/discord-rpc-csharp)  
+- [DiscordRPC by Lachee](https://github.com/Lachee/discord-rpc-csharp)  
+- [DotNetZip by DinoChiesa](https://github.com/DinoChiesa/DotNetZip)
+- [Octokit.NET by GitHub](https://github.com/octokit/octokit.net)https://github.com/octokit/octokit.net
+- [NAudio by Mark Heath](https://github.com/naudio/NAudio)https://github.com/naudio/NAudio
