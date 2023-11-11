@@ -99,6 +99,7 @@ For all kinds of technical support and discussion, join the Discord Server:
 10. In KH3, the player can reorganize their magic menu. This feature is neat, so now it's in KH2. To do this, highlight your magic command and press L2+DPAD to shift around.
 
 ## Credits
+- **TopazTK** for the original work on [Re:Fined](https://github.com/TopazTK/KH-ReFined).
 - **Televo** for almost every asset Re:Freshed uses.
 - **Denhonator** for his work on Soft Reset, Volume Mute, and the location of 1FM RAM Saves.
 - **Xeeynamo** for the functions used to calculate the Save Checksum.
