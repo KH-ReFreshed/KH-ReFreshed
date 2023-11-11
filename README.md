@@ -34,8 +34,9 @@ You can see which games are supported, and which patches are live below:
 - [![Kingdom Hearts I](https://img.shields.io/badge/Kingdom%20Hearts%20I-Live!-brightgreen)](https://github.com/KH-ReFreshed/KH-ReFreshed)  
 - [![Kingdom Hearts II](https://img.shields.io/badge/Kingdom%20Hearts%20II-Live!-brightgreen)](https://github.com/KH-ReFreshed/KH-ReFreshed/tree/v4-dev)  
 - ![Chain of Memories](https://img.shields.io/badge/Chain%20of%20Memories-Not%20Present!-red)
-- ![Birth by Sleep](https://img.shields.io/badge/Birth%20by%20Sleep-Rewrite%20Required!-red)
-- [![Dream Drop Distance](https://img.shields.io/badge/Dream%20Drop%20Distance-Live!-brightgreen)](https://github.com/KH-ReFreshed/KH-ReFreshed) 
+- [![Birth by Sleep](https://img.shields.io/badge/Birth%20by%20Sleep-Rewrite%20Required!-red)](https://github.com/KH-ReFreshed/KH-ReFreshed)
+- [![Dream Drop Distance](https://img.shields.io/badge/Dream%20Drop%20Distance-Live!-brightgreen)](https://github.com/KH-ReFreshed/KH-ReFreshed)
+- ![Melody of Memory](https://img.shields.io/badge/Melody%20of%20Memory-Not%20Present!-red)
 
 ## Support
 
@@ -168,5 +169,5 @@ BBS support is currently broken and you *will* experience issues, such as crashe
 
 - [DiscordRPC by Lachee](https://github.com/Lachee/discord-rpc-csharp)  
 - [DotNetZip by DinoChiesa](https://github.com/DinoChiesa/DotNetZip)
-- [Octokit.NET by GitHub](https://github.com/octokit/octokit.net)https://github.com/octokit/octokit.net
-- [NAudio by Mark Heath](https://github.com/naudio/NAudio)https://github.com/naudio/NAudio
+- [Octokit.NET by GitHub](https://github.com/octokit/octokit.net)
+- [NAudio by Mark Heath](https://github.com/naudio/NAudio)
