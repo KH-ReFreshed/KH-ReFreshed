@@ -8,29 +8,7 @@ Get the latest v1.50 release by clicking the button below.
 
 This release is out of date. See the [main branch](https://github.com/KH-ReFreshed/KH-ReFreshed/) for up-to-date source code and releases.
 
-## Purpose
-
-This project aims to improve the game in many ways whilst fixing the errors that the PC ports, and by extension, 1.5/2.5 had.  
-
-## Game Status
-
-You can see which games are supported, and which patches are live below:
-  
-- [![Kingdom Hearts I](https://img.shields.io/badge/Kingdom%20Hearts%20I-Live!-brightgreen)](https://github.com/KH-ReFreshed/KH-ReFreshed)  
-- [![Kingdom Hearts II](https://img.shields.io/badge/Kingdom%20Hearts%20II-Live!-brightgreen)](https://github.com/KH-ReFreshed/KH-ReFreshed/tree/v4-dev)  
-- ![Chain of Memories](https://img.shields.io/badge/Chain%20of%20Memories-Not%20Present!-red)
-- [![Birth by Sleep](https://img.shields.io/badge/Birth%20by%20Sleep-Rewrite%20Required!-red)](https://github.com/KH-ReFreshed/KH-ReFreshed)
-- [![Dream Drop Distance](https://img.shields.io/badge/Dream%20Drop%20Distance-Live!-brightgreen)](https://github.com/KH-ReFreshed/KH-ReFreshed)
-- ![Melody of Memory](https://img.shields.io/badge/Melody%20of%20Memory-Not%20Present!-red)
-
-## Support
-If you wish to support this project, consider becoming a Patron.  
-  
-[![Patreon](https://img.shields.io/endpoint?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%2F%3Fusername%3Dtopaztk%26type%3Dpatrons)](https://www.patreon.com/topaztk)
-
 ## Features
-
-_Features are separated into two categories: "Error/Bug Fix" or "Enhancement". They are organized as follows:_
 
 ### All Games
 
