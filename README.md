@@ -23,12 +23,6 @@ If you're going to play Kingdom Hearts II, see [the v4.00 branch instead](https:
 - Patch both the games with the patches you downloaded. Instructions are at: https://github.com/AntonioDePau/KHPCPatchManager/blob/main/README.md
 - Done! You now have Re:Freshed with Dual Audio!
 
-## Discord
-
-For all kinds of technical support and discussion, join the Discord Server:  
-
-[![Discord](https://img.shields.io/badge/Kingdom_Hearts_Re:Freshed-Discord-purple)](https://discord.gg/8JWQjuxqbB)
-
 ## Features
 
 ### All Games
