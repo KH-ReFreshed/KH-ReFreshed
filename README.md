@@ -137,6 +137,7 @@ BBS support is currently broken and you *will* experience issues, such as crashe
 ## Credits
 
 ### All Games
+- **TopazTK** for the original work on [Re:Fined](https://github.com/TopazTK/KH-ReFined).
 - **Televo** for almost every asset Re:Freshed uses.
 - **Denhonator** for his work on Soft Reset, Volume Mute, and the location of 1FM RAM Saves.
 - **Xeeynamo** for the functions used to calculate the Save Checksum.
