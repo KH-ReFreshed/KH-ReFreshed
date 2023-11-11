@@ -2,38 +2,28 @@
 
 ## Download
 
-Get the latest release by clicking the button below.
+Get the latest v2.90 release by clicking the button below.
 
-[![KH-ReFixed](https://img.shields.io/badge/KH--ReFixed-Download-blue.svg)](https://github.com/TopazTK/KH-ReFixed/releases)
+[![KH-ReFixed](https://img.shields.io/badge/KH--ReFixed-Download-blue.svg)](https://github.com/KH-ReFreshed/KH-ReFreshed/releases/tag/v2.90)
+
+This release is out of date. See the [main branch](https://github.com/KH-ReFreshed/KH-ReFreshed/) for up-to-date source code and releases.
 
 ## Purpose
 
 This project aims to improve the game in many ways whilst fixing the errors that the PC ports, and by extension, 1.5/2.5 had.  
-  
-Every legacy Kingdom Hearts game will get a Re:Fixed counterpart.
 
 ## Game Status
 
 You can see which games are supported, and which patches are live below:
   
-[![Kingdom Hearts I](https://img.shields.io/badge/Kingdom%20Hearts%20I-Live!-brightgreen)](https://github.com/TopazTK/KH-ReFixed/tree/mother/KH1)  
-[![Kingdom Hearts II](https://img.shields.io/badge/Kingdom%20Hearts%20II-Live!-brightgreen)](https://github.com/TopazTK/KH-ReFixed/tree/mother/KH2)  
-![Chain of Memories](https://img.shields.io/badge/Chain%20of%20Memories-Not%20Present!-red)  
-[![Birth by Sleep](https://img.shields.io/badge/Birth%20by%20Sleep-Live!-brightgreen)](https://github.com/TopazTK/KH-ReFixed/tree/mother/BBS)  
-![Dream Drop Distance](https://img.shields.io/badge/Dream%20Drop%20Distance-Not%20Present!-red)  
-
-## Wiki
-Please refer to the [wiki](https://github.com/TopazTK/KH-ReFixed/wiki/Main-Wiki-Page) for all of your questions.
-
-## Support
-If you wish to support this project, consider becoming a Patron.  
-  
-[![Patreon](https://img.shields.io/endpoint?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%2F%3Fusername%3Dtopaztk%26type%3Dpatrons)](https://www.patreon.com/topaztk)
+- [![Kingdom Hearts I](https://img.shields.io/badge/Kingdom%20Hearts%20I-Live!-brightgreen)](https://github.com/KH-ReFreshed/KH-ReFreshed)  
+- [![Kingdom Hearts II](https://img.shields.io/badge/Kingdom%20Hearts%20II-Live!-brightgreen)](https://github.com/KH-ReFreshed/KH-ReFreshed/tree/v4-dev)  
+- ![Chain of Memories](https://img.shields.io/badge/Chain%20of%20Memories-Not%20Present!-red)
+- [![Birth by Sleep](https://img.shields.io/badge/Birth%20by%20Sleep-Rewrite%20Required!-red)](https://github.com/KH-ReFreshed/KH-ReFreshed)
+- [![Dream Drop Distance](https://img.shields.io/badge/Dream%20Drop%20Distance-Live!-brightgreen)](https://github.com/KH-ReFreshed/KH-ReFreshed)
+- ![Melody of Memory](https://img.shields.io/badge/Melody%20of%20Memory-Not%20Present!-red)
 
 ## Features
-
-_Features are separated into two categories: "Error/Bug Fix" or "Enhancement". They are organized as follows:_ 
-_All features indicating a version number will be released in that said version._
 
 ### All Games
 
@@ -116,6 +106,7 @@ _All features indicating a version number will be released in that said version.
 ## Credits
 
 ### All Games
+- TopazTK for the original work on [Re:Fined](https://github.com/TopazTK/KH-ReFined).
 - Televo for the icons used in Discord Rich Presence and the Executables.
 - KSX for his work on the MP Bar enhancement.
 - Denhonator for his work on Soft Reset, Volume Mute, and the location of 1FM RAM Saves.
