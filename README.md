@@ -1,4 +1,4 @@
-![combined_no_shadow_or_logo](https://github.com/TopazTK/KH-ReFined/assets/95656963/482d02f4-66f6-4b7e-8b73-06c1635da2ef)
+![IMG_0845](https://github.com/KH-ReFreshed/KH-ReFreshed/assets/70141395/3271beff-bf0f-4402-a0f4-c56653e6d3c0)
 
 ## Download
 
