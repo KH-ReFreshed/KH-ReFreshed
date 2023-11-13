@@ -4,7 +4,7 @@
 
 Get the latest v3.00 release by clicking the button below.
 
-[![KH-ReFreshed](https://img.shields.io/badge/Kingdom_Hearts_Re:Freshed-Download-blue.svg)](https://github.com/KH-ReFreshed/KH-ReFreshed/releases/tag/v3.00)
+[![KH-ReFreshed](https://img.shields.io/badge/Kingdom_Hearts_Re:Fined-Download-blue.svg)](https://github.com/KH-ReFreshed/KH-ReFreshed/releases/tag/v3.00)
 
 If you're going to play Kingdom Hearts II, see [the v4.00 branch instead](https://github.com/KH-ReFreshed/KH-ReFreshed/tree/v4-dev).
 
