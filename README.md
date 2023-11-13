@@ -6,6 +6,10 @@ This project was originally known as Re:Fixed/Re:Fined by TopazTK, and is a plan
 
 Everything from version 3.00-4.20 of the project is known as Re:Fined, while version 2.90 and below were known as Re:Fixed.
 
+For any questions, please join the Discord here:
+
+[![Discord](https://img.shields.io/badge/Kingdom%20Hearts%20Re%3AFreshed-Discord?logo=discord&label=Discord&color=%235539cc)](https://discord.gg/6r7yeDBaFx)
+
 ## Download
 
 Get the latest v3.00 release by clicking the button below.
