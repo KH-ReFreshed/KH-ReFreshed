@@ -1,14 +1,14 @@
 ---
 name: Bug Reports
-about: Create a bug-report for Re:Fixed
+about: Create a bug-report for Re:Fined
 title: "[BUG] "
 labels: Bug
 assignees: ''
 
 ---
 
-**Re:Fixed Version:**
-_Enter in the version of Re:Fixed where the bug occurs [Ex. v0.75]_
+**Re:Fined Version:**
+_Enter in the version of Re:Fixed where the bug occurs [Ex. v3.00]_
 
 **Game in Question:**
 _Enter in the game where this is happening [Ex. Kingdom Hearts I]_
