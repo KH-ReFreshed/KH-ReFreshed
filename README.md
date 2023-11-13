@@ -1,10 +1,16 @@
 ![IMG_0845](https://github.com/KH-ReFreshed/KH-ReFreshed/assets/70141395/3271beff-bf0f-4402-a0f4-c56653e6d3c0)
 
+## Notice:
+
+This project was originally known as Re:Fixed/Re:Fined by TopazTK, and is a planned continuation of the project, along with an archive of it's former name of Re:Fixed/Re:Fined. 
+
+Everything from version 3.00-4.20 of the project is known as Re:Fined, while version 2.90 and below were known as Re:Fixed.
+
 ## Download
 
 Get the latest v3.00 release by clicking the button below.
 
-[![KH-ReFreshed](https://img.shields.io/badge/Kingdom_Hearts_Re:Fined-Download-blue.svg)](https://github.com/KH-ReFreshed/KH-ReFreshed/releases/tag/v3.00)
+[![KH-ReFreshed](https://img.shields.io/badge/Kingdom_Hearts_Re:Freshed-Download-blue.svg)](https://github.com/KH-ReFreshed/KH-ReFreshed/releases/tag/v3.00)
 
 If you're going to play Kingdom Hearts II, see [the v4.00 branch instead](https://github.com/KH-ReFreshed/KH-ReFreshed/tree/v4-dev).
 
