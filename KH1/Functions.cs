@@ -766,20 +766,6 @@ namespace ReFined
 
             var _stringDetail = string.Format("HP: {0} | MP: {1}", Hypervisor.Read<byte>(Variables.ADDR_SoraStats), Hypervisor.Read<byte>(Variables.ADDR_SoraStats + 0x08));
 
-            var _rpcButtons = new DiscordRPC.Button[]
-            {
-                new DiscordRPC.Button
-                {
-                    Label = "== Powered by Re:Fined ==",
-                    Url = "https://github.com/TopazTK/KH-ReFined"
-                },
-                new DiscordRPC.Button
-                {
-                    Label = "== Icons by Televo ==",
-                    Url = "https://github.com/Televo/kingdom-hearts-recollection"
-                }
-            };
-
             if (!CheckTitle())
             {
                 Variables.DiscordClient.SetPresence(
@@ -797,7 +783,6 @@ namespace ReFined
                             SmallImageKey = Hypervisor.Read<byte>(Variables.ADDR_BattleFlag) % 2 == 0 ? "safe" : "battle",
                             SmallImageText = Hypervisor.Read<byte>(Variables.ADDR_BattleFlag) % 2 == 0 ? "Safe" : "In Battle"
                         },
-                        Buttons = _rpcButtons
                     }
                 );
             }
@@ -814,7 +799,6 @@ namespace ReFined
                             SmallImageKey = null,
                             SmallImageText = null
                         },
-                        Buttons = _rpcButtons
                     }
                 );
             }
