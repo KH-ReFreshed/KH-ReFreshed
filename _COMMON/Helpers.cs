@@ -45,12 +45,12 @@ namespace ReFined
 
 		public static void InitConfig()
 		{			
-			if (!File.Exists("reFined.ini"))
+			if (!File.Exists("reFinedLegacy.ini"))
 			{
 				var _outIni = new string[]
 				{
 					"[General]",
-					"autoSave = true",
+					"autoSave = false",
 					"discordRPC = true",
 					"autoAttack = false",
 					"saveIndicator = true",
@@ -77,22 +77,22 @@ namespace ReFined
 					"limitShortcuts = [sonic, arcanum, raid, ragnarok]"
 				};
 
-				File.WriteAllLines("reFined.ini", _outIni);
+				File.WriteAllLines("reFinedLegacy.ini", _outIni);
 			}
 
 			else
 			{
-				var _fileRead = File.ReadAllText("reFined.ini");
+				var _fileRead = File.ReadAllText("reFinedLegacy.ini");
 
 				if (!_fileRead.Contains("musicMode"))
 				{
-					File.Delete("reFined.ini");
+					File.Delete("reFinedLegacy.ini");
 					InitConfig();
 				}
 				
 				else
 				{
-					var _configIni = new TinyIni("reFined.ini");	
+					var _configIni = new TinyIni("reFinedLegacy.ini");	
 
 					Variables.saveToggle = Convert.ToBoolean(_configIni.Read("autoSave", "General"));
 					Variables.rpcToggle = Convert.ToBoolean(_configIni.Read("discordRPC", "General"));

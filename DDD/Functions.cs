@@ -1,6 +1,6 @@
 /*
 ==================================================
-      KINGDOM HEARTS - RE:FIXED FOR DDD!
+      KINGDOM HEARTS - REFINED FOR DDD!
        COPYRIGHT TOPAZ WHITELOCK - 2022
  LICENSED UNDER DBAD. GIVE CREDIT WHERE IT'S DUE! 
 ==================================================
@@ -17,7 +17,7 @@ using System.Collections.Generic;
 
 using DiscordRPC;
 
-namespace ReFixed
+namespace ReFined
 {
     public class Functions
     {
@@ -39,10 +39,10 @@ namespace ReFixed
         */
         public static void Initialization()
         {
-            Helpers.Log("Initializing Re:Fixed...", 0);
+            Helpers.Log("Initializing Re:Fined...", 0);
 
-            if (!Directory.Exists(Path.GetTempPath() + "ReFixed"))
-                Directory.CreateDirectory(Path.GetTempPath() + "ReFixed");
+            if (!Directory.Exists(Path.GetTempPath() + "ReFined"))
+                Directory.CreateDirectory(Path.GetTempPath() + "ReFined");
                 
             if (!File.Exists(Variables.SaveSFXPath))
             {
@@ -83,7 +83,7 @@ namespace ReFixed
 
             Variables.Initialized = true;
 
-            Helpers.Log("Re:Fixed initialized with no errors!", 0);
+            Helpers.Log("Re:Fined initialized with no errors!", 0);
         }
 
 		public static bool CheckTitle() => Hypervisor.Read<byte>(Variables.ADDR_World) == 0x00;
@@ -491,7 +491,7 @@ namespace ReFixed
         /*
             DiscordEngine:
 
-            Handle the Discord Rich Presence of Re:Fixed.
+            Handle the Discord Rich Presence of Re:Fined.
             To be executed on a separate thread.
         */
         public static void DiscordEngine()
@@ -524,8 +524,8 @@ namespace ReFixed
             {
                 new DiscordRPC.Button
                 {
-                    Label = "== Powered by Re:Fixed ==",
-                    Url = "https://github.com/TopazTK/KH-ReFixed"
+                    Label = "== Powered by Re:Fined ==",
+                    Url = "https://github.com/TopazTK/KH-ReFined"
                 },
 
                 new DiscordRPC.Button
@@ -577,7 +577,7 @@ namespace ReFixed
         /*
             Execute:
 
-            Executes the main logic within Re:Fixed.
+            Executes the main logic within Re:Fined.
         */
         public static void Execute()
         {
@@ -638,7 +638,7 @@ namespace ReFixed
             catch (Exception _caughtEx)
             {
                 Helpers.LogException(_caughtEx);
-                Helpers.Log("Re:Fixed terminated with an exception!", 1);
+                Helpers.Log("Re:Fined terminated with an exception!", 1);
                 Environment.Exit(-1);
             }
         }

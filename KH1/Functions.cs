@@ -70,7 +70,7 @@ namespace ReFined
                 Variables.ToggleSFX.CopyTo(_toggleStream);
             }
 
-            var _configIni = new TinyIni("reFined.ini");
+            var _configIni = new TinyIni("reFinedLegacy.ini");
             Variables.chestToggle = Convert.ToBoolean(_configIni.Read("battleChests", "Kingdom Hearts"));
 
             Hypervisor.UnlockBlock(Variables.ADDR_ChestCheck);

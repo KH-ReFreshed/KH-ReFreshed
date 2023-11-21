@@ -127,7 +127,7 @@ namespace ReFined
                 }
                 
                 // Open the config file for game-specific configs.
-                var _configIni = new TinyIni("reFined.ini");
+                var _configIni = new TinyIni("reFinedLegacy.ini");
 
                 // Parse the Festive Toggle, and the chosen Limit Form shortcuts, default Retry Setting, and the Drive Shortcut setting.
                 Variables.festiveToggle = Convert.ToBoolean(_configIni.Read("festivityEngine", "Kingdom Hearts II"));
