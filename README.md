@@ -12,25 +12,25 @@ For any questions, please join the Discord here:
 
 ## Download
 
-Get the latest v3.00 release by clicking the button below.
+Get the latest v3.15 release by clicking the button below.
 
-[![KH-ReFreshed](https://img.shields.io/badge/Kingdom_Hearts_Re:Freshed-Download-blue.svg)](https://github.com/KH-ReFreshed/KH-ReFreshed/releases/tag/v3.00)
+[![KH-ReFreshed](https://img.shields.io/badge/Kingdom_Hearts_Re:Freshed-Download-blue.svg)](https://github.com/KH-ReFreshed/KH-ReFreshed/releases/tag/v3.15)
 
 If you're going to play Kingdom Hearts II, see [the v4.00 branch instead](https://github.com/KH-ReFreshed/KH-ReFreshed/tree/v4-dev).
 
 ## Installation
 
 ### Without Dual Audio
-- Drag the EXE unto the game directory.
-- Rename the dragged EXE to the name of the original ones (Ex. "KINGDOM HEARTS FINAL MIX" for KH1)
+- Backup the original exe (by renaming it to a `GAMENAME-bac.exe` format or similar).
+- Drag the Re:Freshed EXE unto the game directory.
 - Tada! You have installed it.
 
 ### With Dual Audio
-- Drag the EXE unto the game directory.
-- Rename the dragged EXE to the name of the original ones (Ex. "KINGDOM HEARTS II FINAL MIX" for KH2)
-- Download the patch in https://bit.ly/DualAudioBBS for BBS, the one in https://bit.ly/DualAudioKH2 for KH2, and the one in https://bit.ly/DualAudioDDD for DDD.	
-- Download KHPCPatchManager v1.2.0 or higher from https://github.com/AntonioDePau/KHPCPatchManager/releases.
-- Patch both the games with the patches you downloaded. Instructions are at: https://github.com/AntonioDePau/KHPCPatchManager/blob/main/README.md
+- Backup the original exe (by renaming it to a `GAMENAME-bac.exe` format or similar).
+- Drag the Re:Freshed EXE unto the game directory and remove the `DualAudio-` part from it's name.
+- Download the patch for [BBS](https://bit.ly/DualAudioBBS) or the one for [DDD](https://bit.ly/DualAudioDDD).
+- Download latest [KHPCPatchManager](https://github.com/AntonioDePau/KHPCPatchManager/releases).
+- Patch both the games with the patches you downloaded. [Instructions](https://github.com/AntonioDePau/KHPCPatchManager/blob/main/README.md).
 - Done! You now have Re:Freshed with Dual Audio!
 
 ## Features
@@ -46,7 +46,7 @@ If you're going to play Kingdom Hearts II, see [the v4.00 branch instead](https:
 | :heavy_check_mark: | - | Added the ability to launch and play the game whilst offline. |
 | :heavy_check_mark: | - | Removed savefile Epic ID check. [[2]](#reference) |
 | - | :heavy_check_mark: | Voice channels will now be muted when set to "1" in the PC settings menu. |
-| - | :heavy_check_mark: | Autosaving functionality, utilizing Slot #99. |
+| - | :heavy_check_mark: | Autosaving functionality, utilizing Slot #99. (Disabled by default due to instability) |
 | - | :heavy_check_mark: | An RPC Engine is now present for use with Discord. |
 | - | :heavy_check_mark: | The MP bar will no longer be present until Sora learns his first magic. [[3]](#reference)| 
 | - | :heavy_check_mark: | Soft reset implementation (R1 + L1 + START + SELECT) |
@@ -66,24 +66,8 @@ If you're going to play Kingdom Hearts II, see [the v4.00 branch instead](https:
 | - | :heavy_check_mark: | Added the ability to Auto Attack by holding down the configured attack button. It will trigger everywhere except the World Map. Toggleable through the config file. |
 | - | :heavy_check_mark: | Added the ability to enforce either Controller or MKB Prompts through the config file. |
 
-### Kingdom Hearts 2
-
-| Error/Bug Fix | Enhancement | Description |
-|---------|-------------|-------------|
-| :heavy_check_mark: | - | Correct Limit Form's Limit names so that they are more accurately translated. [[5]](#reference) |
-| - | :heavy_check_mark: | Drive Forms will now appear in the inventory. | 
-| - | :heavy_check_mark: | It is now possible to customize Limit Form's Shortcut Menu. |
-| - | :heavy_check_mark: | It is now possible to unpause the Atlantica Musical segments. |
-| - | :heavy_check_mark: | The `Kingdom Hearts` Command Menu setting will now display a menu that is more resembling of the menu from the first game. |
-| - | :heavy_check_mark: | Include an option upon selecting `New Game` to skip Roxas' introduction sequence. |
-| - | :heavy_check_mark: | The player is now able to reorganize the Magic menu to their liking. [[6]](#reference) | 
-| - | :heavy_check_mark: | Dual-Audio capabilities, allowing one to switch from and to English or Japanese vocals. [[7]](#reference) |  
-| - | :heavy_check_mark: | The party will now switch up their attire at appropriate times. [[8]](#reference) | 
-| - | :heavy_check_mark: | The player can now retry all forced encounters on command, and can choose to continue via the D-Pad. [[9]](#reference) |
-
 ### Kingdom Hearts - Birth by Sleep
-
-BBS support is currently broken and you *will* experience issues, such as crashes.
+#### BBS support is currently broken and you *will* experience issues, such as crashes.
 
 | Error/Bug Fix | Enhancement | Description |
 |---------|-------------|-------------|
@@ -104,7 +88,7 @@ BBS support is currently broken and you *will* experience issues, such as crashe
 1. Cutscenes will by default lock the game to 30fps. This alleviates that.
 2. The savefiles are DRM'd normally - meaning you can't share savefiles with other people. Re:Freshed removes that DRM.
 3. Sora/Roxas immediately have MP Bars when the game begins, despite having no magic. This fix will now make said MP bar invisible until the player learns their first magic spell. (Usually Fire in KH1, Blizzard in KH2.)
-4. The game originally saves everything to `Documents/KINGDOM HEARTS HD 1.5+2.5 ReMIX\Epic Games Store\[EGS ID]`. Re:Freshed changes the path to `Documents\Kingdom Hearts\Save Data\[EGS ID]`.
+4. The game originally saves everything to `Documents\KINGDOM HEARTS HD 1.5+2.5 ReMIX\Epic Games Store\[EGS ID]`. Re:Freshed changes the path to `Documents\Kingdom Hearts\Save Data\[EGS ID]`.
 5. In the HD remaster of KH2, the localization team changed the translation of certain attacks to contrast with their usual translations from Japanese. E.g. Ragnarok -> Infinity. This fix reverts that awful decision. 
 6. In KH3, the player can reorganize their magic menu. This feature is neat, so now it's in KH2. To do this, highlight your magic command and press L2+DPAD to shift around.
 7. CrazyCatz00's English Patch for Kingdom Hearts 2 - Final Mix on the PS2 had an option in the menu to switch from and to English or Japanese voice acting. This mod reimplements that to the games. There's also extra patches to have a 3rd language - it can be German, French or Spanish.
@@ -125,17 +109,6 @@ BBS support is currently broken and you *will* experience issues, such as crashe
 
 ### Kingdom Hearts 1
 - **Denhonator** for his work on Cutscene Skip.
-
-### Kingdom Hearts 2
-- **CrazyCatz00** for his contributions to Ultrawide Compatibility.
-- **TieuLink** for providing the Japanese voices for the Multi Audio Add-on.
-- **DA** and **AntonioDePau** for their help with injecting ".a.jp" files for the Multi Audio Add-on.
-- **Y2K** for his work on the Prologue Skip.
-- **VladABDF** for his work on the Crown Engine.
-- **Mikote111** for his work on Alternative Title Screens.
-- **Some1fromthedark** for his contributions to the new Configuration System.
-- **gg3502** for his help in the SharpHook Engine.
-- **MainMemory** for her help in fixing Panacea related issues.
 
 ### Kingdom Hearts - Birth by Sleep
 - **TopazTK** for everything so far.
