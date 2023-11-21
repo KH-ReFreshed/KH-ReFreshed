@@ -831,6 +831,13 @@ namespace ReFined
                 #endregion
 
                 #region Tasks
+
+                if (Variables.chestToggle)
+                {
+                    Hypervisor.UnlockBlock(Variables.ADDR_ChestCheck);
+                    Hypervisor.Write<byte>(Variables.ADDR_ChestCheck, 0x7D);
+                }
+
                 if (Variables.ASTask == null)
                 {
                     Variables.ASTask = Task.Factory.StartNew(
